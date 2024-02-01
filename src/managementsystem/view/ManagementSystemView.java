@@ -47,7 +47,7 @@ public class ManagementSystemView {
             if(num1>=0){
                 break;
             }
-            System.out.print("查询的页码必须大于等于0，请重新输入：");
+            System.out.print("查询的下标必须大于等于0，请重新输入：");
         }
         System.out.print("请输入每一页的数据条数：");
         int num2;

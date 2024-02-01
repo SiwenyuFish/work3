@@ -40,7 +40,7 @@ public class ManagementSystemView {
     }
 
     public void searchOrder(){
-        System.out.print("请输入要查询的页码（从第0页开始）：");
+        System.out.print("请输入要查询的下标（从第0开始）：");
         int num1;
         while (true) {
             num1 = myUtils.readInt();

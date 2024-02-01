@@ -71,7 +71,8 @@ public class myUtils {
     public static char readConfirmSelection() {
         System.out.println("请输入你的选择(Y/N): 请小心选择");
         char c;
-        for (; ; ) {//无限循环
+        for (; ; ) {
+            //无限循环
             //在这里，将接受到字符，转成了大写字母
             //y => Y n=>N
             String str = readKeyBoard(1, false).toUpperCase();
@@ -105,8 +106,10 @@ public class myUtils {
 
             //如果line.length=0, 即用户没有输入任何内容，直接回车
             if (line.length() == 0) {
-                if (blankReturn) return line;//如果blankReturn=true,可以返回空串
-                else continue; //如果blankReturn=false,不接受空串，必须输入内容
+                if (blankReturn) return line;
+                //如果blankReturn=true,可以返回空串
+                else continue;
+                //如果blankReturn=false,不接受空串，必须输入内容
             }
 
             //如果用户输入的内容大于了 limit，就提示重写输入

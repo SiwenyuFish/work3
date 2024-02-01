@@ -20,15 +20,15 @@
 
   * BasicDao 
 
-    通用的增删改查方法
+    使用apache-dbutils工具类+druid完成对表的crud
 
   * CommodityDao
 
-    继承BasicDao  完成对commodity表的增删查改
+    继承BasicDao  完成对commodity表的crud
 
   * OrderDao 
 
-    继承BasicDao 完成对order表的增删查改
+    继承BasicDao 完成对order表的crud
 
 * service层
 
